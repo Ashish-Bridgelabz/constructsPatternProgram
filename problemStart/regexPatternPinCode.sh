@@ -3,7 +3,7 @@
 echo "Welcome to the Constructs Patterns program"
 #WE ARE TAKING INPUT FROM USER
 read -p "Enter the number" pincode
-patternPinCode="^[1-9]{1}[0-9]{5}$"
+patternPinCode="^[a-zA-Z]{0}[1-9]{1}[0-9]{5}$"
 if [[ $pincode =~ $patternPinCode ]]
 then
 	echo "Valid"
